@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/activecouchdb/!svn/ver/7/trunk/src/uk/co/dubit/couch
+END
+Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/Connection.java
+END
+Database.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/Database.java
+END
+MapRequestBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/MapRequestBody.java
+END
+RequestProcessingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/RequestProcessingException.java
+END
+RequestBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/RequestBody.java
+END
+RequestException.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/RequestException.java
+END
+ViewResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/ViewResult.java
+END
+ViewDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/activecouchdb/!svn/ver/7/trunk/src/uk/co/dubit/couch/ViewDocument.java
+END
+AdHocView.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/AdHocView.java
+END
+View.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/View.java
+END
+AbstractRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/AbstractRequest.java
+END
+ResponseStatusCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/ResponseStatusCodeException.java
+END
+Document.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/activecouchdb/!svn/ver/8/trunk/src/uk/co/dubit/couch/Document.java
+END
+QueryOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/QueryOptions.java
+END
+ViewResultSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/ViewResultSet.java
+END
+ResponseFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/ResponseFormatException.java
+END
+Request.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/Request.java
+END
+UnknownResponseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/UnknownResponseException.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/activecouchdb/!svn/ver/2/trunk/src/uk/co/dubit/couch/Response.java
+END

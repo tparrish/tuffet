@@ -1,0 +1,42 @@
+<project name="tuffet" default="build">
+
+	<property name="src.dir" value="src" />
+    <property name="test.dir" value="tests" />
+    <property name="build.dir" value="build" />
+    <property name="dist.dir" value="dist" />
+	<property name="etc.dir" value="etc" />
+	<property name="lib.dir" value="lib" />
+
+	<path id="build.classpath">
+        <fileset id="all.jars" dir="${lib.dir}">
+        	<include name="*.jar" />
+        </fileset>
+    </path>
+	
+	<target name="compile">
+		<javac destdir="${build.dir}/${src.dir}" target="1.5" source="1.5">
+            <src path="${src.dir}" />
+            <classpath refid="build.classpath" />
+        </javac>
+	</target>
+	
+	<target name="jar">
+		<jar destfile="${dist.dir}/tuffet.jar" basedir="${build.dir}/${src.dir}" manifest="${etc.dir}/jar/META-INF/MANIFEST.MF" />
+	</target>
+	
+    <!-- HELPER TARGETS -->
+    <target name="init">
+    	<mkdir dir="${build.dir}" />
+    	<mkdir dir="${build.dir}/${src.dir}" />
+    	<mkdir dir="${dist.dir}" />
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}" />
+        <delete dir="${dist.dir}" />
+    </target>
+	
+	<!-- MAIN TARGETS -->
+	<target name="build" depends="clean,init,compile,jar" />
+	
+</project>
