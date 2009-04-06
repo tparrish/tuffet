@@ -1,0 +1,22 @@
+Tuffet is a Java API to Couch DB. It allows direct programmatic access to all the features of Couch DB, without any of the necessity of fiddling around with JSON packets. There are a couple of dependencies, which are described below.
+
+BUILDING
+
+To build this software you'll need ant installed.
+
+
+All dependent libraries are bundled in the lib/ directory. All you need to do after that is type:
+
+ant -f build-release.xml
+
+Once that's finished a jar file will be produced in dist/tuffet.jar.
+
+DEPENDENCIES
+
+There are 3 dependencies for this project:
+
+- Apache HTTP client (version 3.1 or above). This also depends on Apache Commons Codec (1.3+)
+- Apache Commons Logging framework (version 1.1 or above)
+- Jackson JSON library is also used (0.9.9.3 is what's being used at the moment, this is the most recent version at time of release)
+
+You should find all of these in the lib/ directory
